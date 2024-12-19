@@ -1,1 +1,208 @@
-{"sections":{"image_banner":{"type":"image-banner","blocks":{"heading":{"type":"heading","settings":{"heading":"Browse our latest products","heading_size":"h0"}},"button":{"type":"buttons","settings":{"button_label_1":"Shop all","button_link_1":"shopify:\/\/collections\/all","button_style_secondary_1":true,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["heading","button"],"settings":{"image":"shopify:\/\/shop_images\/green-and-white-marbled-coloring.jpg","image_overlay_opacity":50,"image_height":"large","desktop_content_position":"bottom-center","show_text_box":false,"desktop_content_alignment":"center","color_scheme":"scheme-3","image_behavior":"none","mobile_content_alignment":"center","stack_images_on_mobile":false,"show_text_below":false}},"featured_collection":{"type":"featured-collection","settings":{"title":"Featured products","heading_size":"h2","description":"","show_description":false,"description_style":"body","collection":"all","products_to_show":8,"columns_desktop":4,"full_width":false,"show_view_all":true,"view_all_style":"solid","enable_desktop_slider":false,"color_scheme":"scheme-1","image_ratio":"adapt","image_shape":"default","show_secondary_image":true,"show_vendor":false,"show_rating":false,"quick_add":"none","columns_mobile":"2","swipe_on_mobile":false,"padding_top":44,"padding_bottom":36}}},"order":["image_banner","featured_collection"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "collage_JmhX9y": {
+      "type": "collage",
+      "blocks": {
+        "image_ngqQe6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1.jpg"
+          }
+        },
+        "image_iFKjqV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2.jpg"
+          }
+        },
+        "image_CVKLa8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_ngqQe6",
+        "image_iFKjqV",
+        "image_CVKLa8"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_9jBNcp": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": true,
+        "description_style": "body",
+        "collection": "lingerie",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_hmj7Jn": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_TdVYzk": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>LIMITED TIME ONLY</strong>",
+            "heading_size": "h2"
+          }
+        },
+        "text_eYVtGx": {
+          "type": "text",
+          "settings": {
+            "text": "SALE UP TO 40% OFF",
+            "text_style": "subtitle"
+          }
+        },
+        "buttons_iLBfWq": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "SHOP NOW",
+            "button_link_1": "shopify://collections",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_TdVYzk",
+        "text_eYVtGx",
+        "buttons_iLBfWq"
+      ],
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "featured_collection_AgRfeT": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collection_list_MzfydC": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_99L4N6": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "lingerie"
+          }
+        },
+        "featured_collection_REfPdy": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "solutions"
+          }
+        },
+        "featured_collection_wRR88t": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "swimwear"
+          }
+        },
+        "featured_collection_7Jk8WK": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_99L4N6",
+        "featured_collection_REfPdy",
+        "featured_collection_wRR88t",
+        "featured_collection_7Jk8WK"
+      ],
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "collage_JmhX9y",
+    "featured_collection_9jBNcp",
+    "image_banner_hmj7Jn",
+    "featured_collection_AgRfeT",
+    "collection_list_MzfydC"
+  ]
+}

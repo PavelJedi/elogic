@@ -1,0 +1,62 @@
+/* Dots Button */
+.dots-button {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  z-index: 10;
+  width: 30px;
+  height: 32px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.dots-button:hover {
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
+}
+
+/* Dots Inside Button */
+.dots-trigger {
+  display: flex;
+  gap: 3px;
+}
+
+.dots-trigger span {
+  width: 5px;
+  height: 5px;
+  background-color: #004d47; /* Dark green color */
+  border-radius: 50%;
+}
+
+/* Shop Now Button Animation */
+.shop-now-button {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 0;
+  background-color: #14676a;
+  color: white;
+  text-align: center;
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: all 0.3s ease-in-out;
+}
+
+.shop-now-button.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Mobile Adjustments */
+@media (max-width: 768px) {
+  .dots-button {
+    width: 35px;
+    height: 35px;
+  }
+}

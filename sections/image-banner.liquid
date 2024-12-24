@@ -163,8 +163,15 @@
         {%- endcase -%}
       {%- endfor -%}
     </div>
+    <div class="countdown-timer">
+      <div><span id="days">00</span><span class="label">DAY</span></div>
+      <div><span id="hours">00</span><span class="label">HOUR</span></div>
+      <div><span id="minutes">00</span><span class="label">MIN</span></div>
+      <div><span id="seconds">00</span><span class="label">SEC</span></div>
+    </div>
   </div>
 </div>
+<script src="{{ 'countdown-timer.js' | asset_url }}" defer></script>
 
 {% schema %}
 {

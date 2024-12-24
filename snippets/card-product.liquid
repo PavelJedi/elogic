@@ -23,10 +23,10 @@
 {%- unless skip_styles -%}
   {{ 'component-rating.css' | asset_url | stylesheet_tag }}
   {{ 'component-volume-pricing.css' | asset_url | stylesheet_tag }}
-
   {{ 'component-price.css' | asset_url | stylesheet_tag }}
   {{ 'quick-order-list.css' | asset_url | stylesheet_tag }}
   {{ 'quantity-popover.css' | asset_url | stylesheet_tag }}
+  {{ 'dots-styles.css' | asset_url | stylesheet_tag }}
 {%- endunless -%}
 {% assign use_card_swatches = false %}
 {% if settings.card_swatches %}
@@ -127,6 +127,16 @@
                 <span>NEW</span>
               </div>
             {%- endif -%}
+            <div class="dots-button dots-trigger" aria-label="More options">
+              <div class="dots-trigger">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+            <div class="shop-now-button">
+              <a href="{{ card_product.url }}">Shop Now</a>
+            </div>
             <div class="media media--transparent media--hover-effect">
               {% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
               <img
@@ -185,7 +195,7 @@
               <a
                 href="{{ card_product.url }}"
                 id="StandardCardNoMediaLink-{{ section_id }}-{{ card_product.id }}"
-                class="full-unstyled-link"
+                class="full-unstyled-link js-card-link"
                 aria-labelledby="StandardCardNoMediaLink-{{ section_id }}-{{ card_product.id }} NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}"
               >
                 {{ card_product.title | escape }}
@@ -224,7 +234,7 @@
             <a
               href="{{ card_product.url }}"
               id="CardLink-{{ section_id }}-{{ card_product.id }}"
-              class="full-unstyled-link"
+              class="full-unstyled-link js-card-link"
               aria-labelledby="CardLink-{{ section_id }}-{{ card_product.id }} Badge-{{ section_id }}-{{ card_product.id }}"
             >
               {{ card_product.title | escape }}
@@ -577,7 +587,7 @@
                         </a>
                       </div>
                       <div class="quick-add-modal__content-info--bulk-details large-up-hide">
-                        <a href="{{ card_product.url }}" class="full-unstyled-link">
+                        <a href="{{ card_product.url }}" class="full-unstyled-link js-card-link">
                           <h3>{{ card_product.title | escape }}</h3>
                         </a>
                         {% render 'price', product: card_product, price_class: '', show_compare_at_price: true %}
@@ -590,7 +600,7 @@
                     </div>
                     <div>
                       <div class="quick-add-modal__content-info--bulk-details small-hide medium-hide">
-                        <a href="{{ card_product.url }}" class="full-unstyled-link">
+                        <a href="{{ card_product.url }}" class="full-unstyled-link js-card-link">
                           <h3 class="h2">
                             {{ card_product.title | escape }}
                           </h3>
@@ -677,7 +687,7 @@
       <div class="card__content">
         <div class="card__information">
           <h3 class="card__heading card__heading--placeholder{% if settings.card_style == 'standard' %} h5{% endif %}">
-            <a role="link" aria-disabled="true" class="full-unstyled-link">
+            <a role="link" aria-disabled="true" class="full-unstyled-link js-card-link">
               {{ 'onboarding.product_title' | t }}
             </a>
           </h3>
@@ -691,6 +701,7 @@
         </div>
       </div>
     </div>
+    <script src="{{ 'dots.js' | asset_url }}" defer></script>
   </div>
 {%- endif -%}
 {% if use_card_swatches %}

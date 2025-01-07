@@ -343,7 +343,7 @@
                         <li>
                           <span>{{ card_product.selected_or_first_available_variant.quantity_rule.min }}+</span>
                           {%- assign price = card_product.selected_or_first_available_variant.price
-                            | money_with_currency
+                            | money_without_trailing_zeros
                           -%}
                           <span>{{ 'sections.quick_order_list.each' | t: money: price }}</span>
                         </li>

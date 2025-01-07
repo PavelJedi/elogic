@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const targetDate = new Date("2025-03-30T07:35:56").getTime();
+  const targetDate = new Date(document.getElementById('countdown-timer').getAttribute('data-timer')).getTime();
   const daysElement = document.getElementById("days");
   const hoursElement = document.getElementById("hours");
   const minutesElement = document.getElementById("minutes");

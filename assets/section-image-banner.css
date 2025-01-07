@@ -13,12 +13,18 @@
 .countdown-timer {
   display: flex;
   justify-content: flex-end; /* Align timer to the right */
-  align-items: center;
-  gap: 1.5rem; /* Increase gap between time blocks */
+  gap: 7px; /* Increase gap between time blocks */
   font-size: 1.8rem;
   color: white;
   margin-right: 3rem; /* Push timer to the right edge */
   padding-left: 2rem; /* Add padding if needed */
+}
+
+.countdown-timer .colon {
+  font-size: 2rem; /* Розмір двокрапки */
+  font-weight: bold;
+  color: white; /* Колір тексту */
+  margin: 0 0.2rem; /* Проміжок між числами */
 }
 
 .countdown-timer span {
@@ -33,15 +39,17 @@
 }
 
 .countdown-timer span.time {
-  font-size: 12px;
+  font-size: 28px;
   font-weight: 300;
-  line-height: 15px;
+  line-height: 36.68px;
 }
 
 .countdown-timer span.label {
-  font-size: 0.8rem; /* Smaller font size for labels */
-  margin-top: 0.3rem; /* Space between number and label */
-  opacity: 0.8; /* Slight transparency for label text */
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 15.72px;
+  margin-top: 0.3rem;
+  opacity: 0.8;
 }
 
 /* Needed for gradient continuity with or without animation, the transform scopes the gradient to its container which happens already when animation are turned on */

@@ -30,7 +30,7 @@
   assign money_price_min = price_min | money
   assign money_price_max = price_max | money
   if settings.currency_code_enabled
-    assign money_price = price | money_with_currency
+    assign money_price = price | money_without_trailing_zeros
     assign money_price_min = price_min | money_with_currency
     assign money_price_max = price_max | money_with_currency
   endif
@@ -86,7 +86,7 @@
         {%- else -%}
           <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
           <span class="price-item price-item--regular">
-            {{ money_price  | split: ',' | first }}
+            {{ money_price}}
           </span>
         {%- endif -%}
       </div>

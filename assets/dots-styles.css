@@ -1,62 +1,94 @@
-/* Dots Button */
 .dots-button {
   position: absolute;
-  bottom: 10px;
+  bottom: 130px;
   right: 10px;
   z-index: 10;
-  width: 30px;
-  height: 32px;
+  width: 40px;
+  height: 40px;
   background-color: #ffffff;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: box-shadow 0.2s, transform 0.2s;
 }
 
 .dots-button:hover {
-  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
   transform: scale(1.1);
 }
 
-/* Dots Inside Button */
 .dots-trigger {
   display: flex;
-  gap: 3px;
+  flex-wrap: wrap;
 }
 
 .dots-trigger span {
-  width: 5px;
-  height: 5px;
-  background-color: #004d47; /* Dark green color */
+  display: block;
+  width: 6px;
+  height: 6px;
+  margin: 3px 0;
+  background-color: #004d47;
   border-radius: 50%;
+  margin: 0 2px;
 }
 
-/* Shop Now Button Animation */
 .shop-now-button {
   position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  padding: 10px 0;
-  background-color: #14676a;
-  color: white;
+  bottom: 125px;
+  left: 31%;
+  padding: 7px 9px;
+  background-color: #f7f6f2;
+  color: #004d47;
+  font-size: 10px;
+  font-weight: bold;
   text-align: center;
+  border: 2px solid #004d47;
+  border-radius: 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
   opacity: 0;
-  transform: translateX(-100%);
-  transition: all 0.3s ease-in-out;
+  visibility: hidden;
+  animation: slideInFromLeft 0.4s ease forwards;
+  z-index: 10;
+}
+
+@keyframes slideInFromLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 .shop-now-button.visible {
   opacity: 1;
-  transform: translateX(0);
+  visibility: visible;
 }
 
-/* Mobile Adjustments */
+.shop-now-button.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.shop-now-button a {
+  color: black;
+  text-decoration: none;
+}
+
 @media (max-width: 768px) {
   .dots-button {
     width: 35px;
     height: 35px;
+    top: 180px;
+  }
+
+  .shop-now-button {
+    display: none;
   }
 }

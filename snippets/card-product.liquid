@@ -116,6 +116,18 @@
       "
       style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;"
     >
+      <div class="dots-button dots-trigger" aria-label="More options" onclick="toggleShopNow(this.nextElementSibling)">
+        <div class="dots-trigger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+      <div class="shop-now-button hidden">
+        <a href="{{ card_product.url }}">Shop Now</a>
+      </div>
+
       <div
         class="card__inner {% if settings.card_style == 'standard' %}color-{{ settings.card_color_scheme }} gradient{% endif %}{% if card_product.featured_media or settings.card_style == 'standard' %} ratio{% endif %}"
         style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;"
@@ -127,16 +139,7 @@
                 <span>NEW</span>
               </div>
             {%- endif -%}
-            <div class="dots-button dots-trigger" aria-label="More options">
-              <div class="dots-trigger">
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-            </div>
-            <div class="shop-now-button">
-              <a href="{{ card_product.url }}">Shop Now</a>
-            </div>
+
             <div class="media media--transparent media--hover-effect">
               {% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
               <img
@@ -701,7 +704,6 @@
         </div>
       </div>
     </div>
-    <script src="{{ 'dots.js' | asset_url }}" defer></script>
   </div>
 {%- endif -%}
 {% if use_card_swatches %}
@@ -723,3 +725,4 @@
     {%- endfor -%}
   </div>
 {% endif %}
+<script src="{{ 'dots.js' | asset_url }}" defer></script>

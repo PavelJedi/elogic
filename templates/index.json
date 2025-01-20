@@ -31,11 +31,7 @@
           }
         }
       },
-      "block_order": [
-        "image_ngqQe6",
-        "image_iFKjqV",
-        "image_CVKLa8"
-      ],
+      "block_order": ["image_ngqQe6", "image_iFKjqV", "image_CVKLa8"],
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -104,11 +100,7 @@
           }
         }
       },
-      "block_order": [
-        "heading_TdVYzk",
-        "text_eYVtGx",
-        "buttons_iLBfWq"
-      ],
+      "block_order": ["heading_TdVYzk", "text_eYVtGx", "buttons_iLBfWq"],
       "settings": {
         "countdown-timer": "2025-03-31T23:59:59",
         "image_overlay_opacity": 0,

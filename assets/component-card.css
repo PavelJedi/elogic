@@ -4,6 +4,8 @@
   text-decoration: none;
 }
 
+
+
 .card {
   text-decoration: none;
   text-align: var(--text-alignment);
@@ -104,15 +106,18 @@
 
 .product-new-label {
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 4px;
+  left: 8px;
   background-color: #0091da;
   color: #fff;
   font-size: 10px;
   font-weight: 700;
   text-transform: uppercase;
-  padding: 4px 8px;
+  padding: 4px 10px;
   z-index: 10;
+  width: 46px;
+  height: 23px;
+  line-height: 15px;
 }
 
 .card .media {
@@ -492,7 +497,7 @@
 }
 
 .card-information > * + * {
-  margin-top: 0.5rem;
+  margin-top: 0;
 }
 
 .card-information {
@@ -505,7 +510,10 @@
 }
 
 .card-information > .price {
-  color: rgb(var(--color-foreground));
+  color: #1f727c;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
 }
 
 .card--horizontal .card-information > .price {
@@ -528,7 +536,7 @@
 .card-information
   > *:not(.visually-hidden:first-child)
   + *:not(.rating):not(.card__information-volume-pricing-note) {
-  margin-top: 0.7rem;
+  margin-top: 0;
 }
 
 .card-information .caption {

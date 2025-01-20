@@ -59,3 +59,17 @@
 .collection-list-view-all {
   margin-top: 2rem;
 }
+
+#Slider-template--18970082017504__collection_list_MzfydC {
+  .card__content {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .section-template--18970082017504__collection_list_MzfydC-padding {
+    margin: 0;
+  }
+}

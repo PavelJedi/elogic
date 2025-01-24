@@ -3,8 +3,25 @@
   margin-bottom: 0;
 }
 
+.collection__item img {
+  width: 100vw;
+  object-fit: cover;
+}
+
 .collection-list-title {
   margin: 0;
+}
+#Slider-template--18970082017504__collection_list_MzfydC {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+
+#Slider-template--18970082017504__collection_list_MzfydC.custom-template--18970082017504__collection_list_MzfydC
+  li {
+  flex: 0 0 auto;
+  width: 100%;
 }
 
 @media screen and (max-width: 749px) {

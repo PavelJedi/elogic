@@ -898,11 +898,6 @@ summary::-webkit-details-marker {
   row-gap: var(--grid-mobile-vertical-spacing);
 }
 
-#Slide-template--18970082017504__featured_collection_AgRfeT-1 .grid {
-  background-color: red !important;
-  padding: 100px;
-}
-
 @media screen and (min-width: 750px) {
   .grid {
     column-gap: var(--grid-desktop-horizontal-spacing);
@@ -1089,7 +1084,7 @@ summary::-webkit-details-marker {
 
   .slider--tablet.grid--peek.grid--1-col-tablet-down .grid__item,
   .slider--mobile.grid--peek.grid--1-col-tablet-down .grid__item {
-    width: calc(100% - var(--grid-mobile-horizontal-spacing) - 3rem);
+    width: calc(100% - var(--grid-mobile-horizontal-spacing) - 2rem);
   }
 }
 
@@ -1260,6 +1255,7 @@ button.shopify-payment-button__button--unbranded {
   border-radius: var(--buttons-radius-outset);
   box-shadow: var(--shadow-horizontal-offset) var(--shadow-vertical-offset)
     var(--shadow-blur-radius) rgba(var(--color-shadow), var(--shadow-opacity));
+  
 }
 
 .button:after,
@@ -3194,6 +3190,9 @@ details-disclosure > details {
 
 .rte > *:last-child {
   margin-bottom: 0;
+  font-weight: 300;
+  font-size: 34px;
+  line-height: 44px;
 }
 
 .rte table {

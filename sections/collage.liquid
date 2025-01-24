@@ -16,6 +16,18 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+  {% if section.settings.enable_custom_height %}
+    .section-{{ section.id }}{
+      .collage-image {
+        max-height: 627px;
+        object-fit: cover;
+      }
+      .collage__item--left:nth-child(3n - 1), .collage__item--left:nth-child(3n) {
+        max-height: 280px;
+    }
+    }
+  {% endif %}
 {%- endstyle -%}
 
 <div class="color-{{ section.settings.color_scheme }} gradient isolate">
@@ -337,6 +349,12 @@
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
       "default": 36
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_custom_height",
+      "label": "Show size",
+      "default": false
     }
   ],
   "blocks": [

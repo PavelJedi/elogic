@@ -29,7 +29,7 @@
   width: 5px;
   height: 5px;
   margin: 14px 7px;
-  background-color: #1F727C;
+  background-color: #1f727c;
   border-radius: 50%;
   margin: 0 2px;
 }
@@ -90,5 +90,11 @@
 
   .shop-now-button {
     display: none;
+  }
+}
+
+@media (max-width: 375px) {
+  .dots-button {
+    top: 140px;
   }
 }

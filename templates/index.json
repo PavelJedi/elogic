@@ -31,7 +31,11 @@
           }
         }
       },
-      "block_order": ["image_ngqQe6", "image_iFKjqV", "image_CVKLa8"],
+      "block_order": [
+        "image_ngqQe6",
+        "image_iFKjqV",
+        "image_CVKLa8"
+      ],
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -39,7 +43,7 @@
         "mobile_layout": "column",
         "card_styles": "product-card-wrapper",
         "color_scheme": "",
-        "padding_top": 36,
+        "padding_top": 16,
         "padding_bottom": 36
       }
     },
@@ -100,7 +104,11 @@
           }
         }
       },
-      "block_order": ["heading_TdVYzk", "text_eYVtGx", "buttons_iLBfWq"],
+      "block_order": [
+        "heading_TdVYzk",
+        "text_eYVtGx",
+        "buttons_iLBfWq"
+      ],
       "settings": {
         "countdown-timer": "2025-03-31T23:59:59",
         "image_overlay_opacity": 0,
@@ -189,95 +197,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "slideshow_FL7EaJ": {
-      "type": "slideshow",
-      "blocks": {
-        "slide_3zfNCB": {
-          "type": "slide",
-          "settings": {
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_a6GqQ4": {
-          "type": "slide",
-          "settings": {
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_3XwA4g": {
-          "type": "slide",
-          "settings": {
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_9QcPH3": {
-          "type": "slide",
-          "settings": {
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "slide_3zfNCB",
-        "slide_a6GqQ4",
-        "slide_3XwA4g",
-        "slide_9QcPH3"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "slider_visual": "dots",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "image_behavior": "none",
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
-      }
     }
   },
   "order": [
@@ -285,7 +204,6 @@
     "featured_collection_9jBNcp",
     "image_banner_hmj7Jn",
     "featured_collection_AgRfeT",
-    "collection_list_MzfydC",
-    "slideshow_FL7EaJ"
+    "collection_list_MzfydC"
   ]
 }

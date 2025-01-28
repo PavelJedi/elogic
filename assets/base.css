@@ -909,6 +909,14 @@ summary::-webkit-details-marker {
   margin-bottom: 0;
 }
 
+@media screen and (max-width: 750px) {
+  .grid:last-child {
+    row-gap: 52px;
+    column-gap: 60px;
+    margin: 0 22px;
+  }
+}
+
 .grid__item {
   width: calc(25% - var(--grid-mobile-horizontal-spacing) * 3 / 4);
   max-width: calc(50% - var(--grid-mobile-horizontal-spacing) / 2);
@@ -1088,6 +1096,14 @@ summary::-webkit-details-marker {
   }
 }
 
+@media screen and (max-width: 750px) {
+  .second-blockk {
+    row-gap: 52px;
+    column-gap: 60px;
+    margin: 0 22px;
+  }
+}
+
 @media screen and (min-width: 750px) and (max-width: 989px) {
   .slider--tablet.grid--peek .grid__item {
     width: calc(25% - var(--grid-desktop-horizontal-spacing) - 3rem);
@@ -1255,7 +1271,6 @@ button.shopify-payment-button__button--unbranded {
   border-radius: var(--buttons-radius-outset);
   box-shadow: var(--shadow-horizontal-offset) var(--shadow-vertical-offset)
     var(--shadow-blur-radius) rgba(var(--color-shadow), var(--shadow-opacity));
-  
 }
 
 .button:after,

@@ -505,12 +505,6 @@
   word-break: break-word;
 }
 
-#Banner-template--18970082017504__image_banner_hmj7Jn .button {
-  font-weight: 300;
-  font-size: 15px;
-  line-height: 19px;
-}
-
 @media screen and (max-width: 749px) {
   .banner--content-align-mobile-right .banner__buttons--multiple {
     justify-content: flex-end;

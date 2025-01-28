@@ -13,6 +13,7 @@
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
+      margin: 0;
     }
   }
   #Slider-{{ section.id }}.custom-{{ section.id }} li  {
@@ -20,14 +21,26 @@
     max-width: 100%;
     }
 
-
   .custom-{{ section.id }} {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(416px, 1fr));
     gap: 33px;
     width: 100%;
     max-width: 100vw;
+
+    .card__content {
+      display: flex;
+      justify-content: center;
+      text-decoration: underline;
+    }
   }
+  #Slider-{{ section.id }}.custom-{{ section.id }} {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    }
+    
 {%- endstyle -%}
 
 {%- liquid

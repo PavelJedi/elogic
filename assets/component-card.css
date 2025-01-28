@@ -102,20 +102,6 @@
   top: 0;
 }
 
-#Slider-template--18970082017504__collection_list_MzfydC .card__media img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
-
-#Slider-template--18970082017504__featured_collection_AgRfeT {
-  @media screen and (max-width: 750px) {
-    row-gap: 52px;
-    column-gap: 60px;
-    margin: 0 30px;
-  }
-}
-
 .product-new-label {
   position: absolute;
   top: 4px;

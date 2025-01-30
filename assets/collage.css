@@ -77,6 +77,14 @@
     max-height: 280px;
   }
 
+  @media screen and (min-width: 1500px) {
+    .collage__item--left:nth-child(3n - 1),
+    .collage__item--left:nth-child(3n) {
+      grid-column-start: 3;
+      max-height: 357px;
+    }
+  }
+
   .collage__item--left:nth-child(3n - 1):last-child {
     grid-row: span 2;
   }

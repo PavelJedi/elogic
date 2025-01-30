@@ -44,13 +44,15 @@
         "card_styles": "product-card-wrapper",
         "color_scheme": "",
         "padding_top": 16,
-        "padding_bottom": 36
+        "padding_bottom": 36,
+        "enable_custom_height": false
       }
     },
     "featured_collection_9jBNcp": {
       "type": "featured-collection",
       "settings": {
         "title": "BEST SELLERS",
+        "enable_custom_gap": false,
         "heading_size": "h1",
         "description": "",
         "show_description": true,
@@ -110,6 +112,7 @@
         "buttons_iLBfWq"
       ],
       "settings": {
+        "image": "shopify://shop_images/timer-background.png",
         "countdown-timer": "2025-03-31T23:59:59",
         "image_overlay_opacity": 0,
         "image_height": "small",
@@ -127,6 +130,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "NEW ARRIVED",
+        "enable_custom_gap": false,
         "heading_size": "h1",
         "description": "",
         "show_description": false,

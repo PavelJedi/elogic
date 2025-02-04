@@ -1,1 +1,207 @@
-{"sections":{"image_banner":{"type":"image-banner","blocks":{"heading":{"type":"heading","settings":{"heading":"Browse our latest products","heading_size":"h0"}},"button":{"type":"buttons","settings":{"button_label_1":"Shop all","button_link_1":"shopify:\/\/collections\/all","button_style_secondary_1":true,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["heading","button"],"settings":{"image":"shopify:\/\/shop_images\/green-and-white-marbled-coloring.jpg","image_overlay_opacity":50,"image_height":"large","desktop_content_position":"bottom-center","show_text_box":false,"desktop_content_alignment":"center","color_scheme":"scheme-3","image_behavior":"none","mobile_content_alignment":"center","stack_images_on_mobile":false,"show_text_below":false}},"featured_collection":{"type":"featured-collection","settings":{"title":"Featured products","heading_size":"h2","description":"","show_description":false,"description_style":"body","collection":"all","products_to_show":8,"columns_desktop":4,"full_width":false,"show_view_all":true,"view_all_style":"solid","enable_desktop_slider":false,"color_scheme":"scheme-1","image_ratio":"adapt","image_shape":"default","show_secondary_image":true,"show_vendor":false,"show_rating":false,"quick_add":"none","columns_mobile":"2","swipe_on_mobile":false,"padding_top":44,"padding_bottom":36}}},"order":["image_banner","featured_collection"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "collage_nFwPcK": {
+      "type": "collage",
+      "blocks": {
+        "image_aMBTPf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/woman-watches-waves_f995e143-9ad8-465f-bd0b-00994d8f465b.jpg"
+          }
+        },
+        "image_97EDQ6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/smiling-beach-photographer.jpg"
+          }
+        },
+        "image_7FVFtK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/woman-talks-on-her-cell-phone-on-sandy-beach.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_aMBTPf",
+        "image_97EDQ6",
+        "image_7FVFtK"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "none",
+        "color_scheme": "scheme-2",
+        "padding_top": 16,
+        "padding_bottom": 32
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "<strong>BEST SELLERS</strong>",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-2",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    },
+    "image_with_text_7KWbyT": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_GjqdJq": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Limited time only</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_UjbBGa": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>SALE UP TO 40% OFF</h2>",
+            "text_style": "body"
+          }
+        },
+        "button_DPR4YC": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP NOW",
+            "button_link": "",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_GjqdJq",
+        "text_UjbBGa",
+        "button_DPR4YC"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-5",
+        "color_scheme": "scheme-5",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 76,
+        "padding_bottom": 76
+      }
+    },
+    "featured_collection_qtXWwp": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "<strong>NEW ARRIVED</strong>",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "new-arrived",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "outline",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-2",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": true,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    },
+    "collection_list_ddLk6H": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_WHhErw": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "lingerie"
+          }
+        },
+        "featured_collection_FArczY": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "solutions"
+          }
+        },
+        "featured_collection_XTPBTm": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "swimwear"
+          }
+        },
+        "featured_collection_Dp98ac": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "collection"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_WHhErw",
+        "featured_collection_FArczY",
+        "featured_collection_XTPBTm",
+        "featured_collection_Dp98ac"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_ratio": "portrait",
+        "columns_desktop": 4,
+        "color_scheme": "scheme-2",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    }
+  },
+  "order": [
+    "collage_nFwPcK",
+    "featured_collection",
+    "image_with_text_7KWbyT",
+    "featured_collection_qtXWwp",
+    "collection_list_ddLk6H"
+  ]
+}

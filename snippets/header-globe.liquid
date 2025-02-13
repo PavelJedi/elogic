@@ -1,0 +1,24 @@
+{% comment %}
+  Renders a header globe icon. Should be used with 'header-globe.liquid'
+
+  Usage:
+  {% render 'header-globe'%}
+{% endcomment %}
+
+<details-modal class="header__search">
+  <details>
+    <summary
+      class="header__icon header__icon--search header__icon--summary link focus-inset modal__toggle"
+      aria-haspopup="dialog"
+      aria-label="{{ 'general.search.search' | t }}">
+      <span>
+        <span class="svg-wrapper globe__icon">
+          {{- 'icon-globe.svg' | inline_asset_content -}}
+        </span>
+        <span class="svg-wrapper header__icon-close">
+          {{- 'icon-globe.svg' | inline_asset_content -}}
+        </span>
+      </span>
+    </summary>
+  </details>
+</details-modal>
